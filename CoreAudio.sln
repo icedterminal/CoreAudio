@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "CoreAudioMM", "CoreAudioMM\CoreAudioMM.wixproj", "{AB7E8FCD-830C-47A5-970E-259EEF22A22F}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "CoreAudio", "CoreAudio\CoreAudio.wixproj", "{87166AC5-C706-4779-A9A8-6109BD6BFE6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB7E8FCD-830C-47A5-970E-259EEF22A22F}.Debug|x64.ActiveCfg = Debug|x64
+		{AB7E8FCD-830C-47A5-970E-259EEF22A22F}.Debug|x64.Build.0 = Debug|x64
+		{AB7E8FCD-830C-47A5-970E-259EEF22A22F}.Release|x64.ActiveCfg = Release|x64
+		{AB7E8FCD-830C-47A5-970E-259EEF22A22F}.Release|x64.Build.0 = Release|x64
+		{87166AC5-C706-4779-A9A8-6109BD6BFE6D}.Debug|x64.ActiveCfg = sse|x64
+		{87166AC5-C706-4779-A9A8-6109BD6BFE6D}.Debug|x64.Build.0 = sse|x64
+		{87166AC5-C706-4779-A9A8-6109BD6BFE6D}.Release|x64.ActiveCfg = Release|x64
+		{87166AC5-C706-4779-A9A8-6109BD6BFE6D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1AD3C7-EFCA-4575-86E5-72570A9BE97C}
+	EndGlobalSection
+EndGlobal

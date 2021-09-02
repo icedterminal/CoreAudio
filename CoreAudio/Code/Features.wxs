@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="CommonFiles64Folder">
+        <Directory Id="CompanyFolder" Name="Apple">
+          <Directory Id="INSTALLLOCATION" Name="Apple Application Support">
+            <Merge Id="CoreAudioMM" SourceFile="$(var.CoreAudioMM.TargetPath)" DiskId="1" Language="1033"/>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id="CoreAudio" Title="CoreAudio" Description="Installs all the files needed for CoreAudio" Level="1" AllowAdvertise="no">
+      <MergeRef Id="CoreAudioMM"/>
+      <!-- Uncomment the below line to pull in IIS Metadata.  Otherwise delete if not needed -->
+      <!--<ComponentGroupRef Id="webSite" />-->
+    </Feature>
+  </Fragment>
+</Wix>
