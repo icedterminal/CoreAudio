@@ -3,6 +3,7 @@ CoreAudio stand-alone for Windows. Make it easier to use for OBS.
 
 Minimum required files:
 
+```
 "C:\Program Files\Common Files\Apple\Apple Application Support\CoreFoundation.resources\*"
 "C:\Program Files\Common Files\Apple\Apple Application Support\CoreMedia.resources\*"
 "C:\Program Files\Common Files\Apple\Apple Application Support\ASL.dll"
@@ -23,5 +24,6 @@ Minimum required files:
 "C:\Program Files\Common Files\Apple\Apple Application Support\lskd.rl"
 "C:\Program Files\Common Files\Apple\Apple Application Support\objc.dll"
 "C:\Program Files\Common Files\Apple\Apple Application Support\zlib1.dll"
+```
 
 Check your OBS log and look for `[CoreAudio encoder]: Adding CoreAudio AAC encoder`
