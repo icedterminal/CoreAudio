@@ -1,2 +1,2 @@
 # CoreAudio
-CoreAudio stand-alone for Windows
+CoreAudio stand-alone for Windows. Make it easier to use for OBS.
