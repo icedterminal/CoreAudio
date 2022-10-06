@@ -68,7 +68,7 @@
     <Content Include="Resources\Banner.jpg" />
     <Content Include="Resources\Dialog.jpg" />
     <Content Include="Resources\EULA.rtf" />
-    <Content Include="Resources\Icon.ico" />
+    <Content Include="Resources\spk.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CoreAudioMM\CoreAudioMM.wixproj">

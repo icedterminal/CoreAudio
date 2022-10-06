@@ -8,7 +8,7 @@
   The Product@Id attribute (ProductCode Property) will be a random GUID for each build.  This is to support "Major Upgrades" where each install 
   is a seamless uninstall/reinstall.
   -->
-  <Product Id="*" Name="CoreAudio" Language="1033" Version="7.10.9.0" Manufacturer="Apple" UpgradeCode="cca2b3fa-b03b-4886-958b-88a6977dafb5">
+  <Product Id="*" Name="CoreAudio" Language="1033" Version="1.0.1" Manufacturer="Apple" UpgradeCode="cca2b3fa-b03b-4886-958b-88a6977dafb5">
     <Package InstallerVersion="301" Compressed="yes" InstallScope="perMachine" InstallPrivileges="elevated" Manufacturer="Apple" Platform="x64" />
     <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
     <!-- Major Upgrade Rule to disallow downgrades -->
@@ -19,7 +19,7 @@
     <Condition Message="[ProductName] requires .NET Framework 4.0.">Installed OR NETFRAMEWORK40FULL</Condition>
     <!-- Include User Interface Experience -->
     <Icon Id="spk.ico" SourceFile="Resources\spk.ico" />
-    <Property Id="ARPPRODUCTICON" Value="Icon.ico"></Property>
+    <Property Id="ARPPRODUCTICON" Value="spk.ico"></Property>
     <UIRef Id="WixUI_Minimal" />
     <!-- Include Features and Directories Fragment -->
     <DirectoryRef Id="INSTALLLOCATION" />

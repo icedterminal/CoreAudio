@@ -7,255 +7,252 @@
     <Package Id="d068e67a-2402-4450-8aac-47aeff68ee05" Manufacturer="CoreAudioMM" InstallerVersion="200" InstallPrivileges="elevated" InstallScope="perMachine" Platform="x64" />
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="MergeRedirectFolder">
-        <Component Id="owc9A72479F5DFE2959C0E5060CF11474BF" Guid="6afb9ee3-26f9-5f33-e627-21a83037a88e">
+        <Component Id="owc9A72479F5DFE2959C0E5060CF11474BF" Guid="6afb9ee3-26f9-5f33-e627-21a83037a88e" Win64="yes">
           <File Id="owf9A72479F5DFE2959C0E5060CF11474BF" Source="$(var.SourceDir)\ASL.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc14EC62E92160AFAF2ECD3F341D7A1092" Guid="5cb2b8ab-3ab6-f854-0448-d87f103e75e8">
+        <Component Id="owc14EC62E92160AFAF2ECD3F341D7A1092" Guid="5cb2b8ab-3ab6-f854-0448-d87f103e75e8" Win64="yes">
           <File Id="owf14EC62E92160AFAF2ECD3F341D7A1092" Source="$(var.SourceDir)\CoreADI.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc2EE8E4738640997FA5BA5F2B91D921E9" Guid="18255704-3cde-5173-4625-6416384c99e2">
+        <Component Id="owc2EE8E4738640997FA5BA5F2B91D921E9" Guid="18255704-3cde-5173-4625-6416384c99e2" Win64="yes">
           <File Id="owf2EE8E4738640997FA5BA5F2B91D921E9" Source="$(var.SourceDir)\CoreADI64.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc10A305B0C691A76CE2E197AF07F3AA4A" Guid="b1804fa1-6dfc-4103-ee8d-022cc74d0ccb">
+        <Component Id="owc10A305B0C691A76CE2E197AF07F3AA4A" Guid="b1804fa1-6dfc-4103-ee8d-022cc74d0ccb" Win64="yes">
           <File Id="owf10A305B0C691A76CE2E197AF07F3AA4A" Source="$(var.SourceDir)\CoreAudioToolbox.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc4888E25E338A8486C5E05DF4CC09A73B" Guid="64704ab2-e519-788a-acbc-b0c6f31b8b86">
+        <Component Id="owc4888E25E338A8486C5E05DF4CC09A73B" Guid="64704ab2-e519-788a-acbc-b0c6f31b8b86" Win64="yes">
           <File Id="owf4888E25E338A8486C5E05DF4CC09A73B" Source="$(var.SourceDir)\CoreFoundation.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc99B25D56DE917B77FFC0713E72AF0D29" Guid="8e65aa5f-26f4-dc6a-d269-7ad417f84d65">
+        <Component Id="owc99B25D56DE917B77FFC0713E72AF0D29" Guid="8e65aa5f-26f4-dc6a-d269-7ad417f84d65" Win64="yes">
           <File Id="owf99B25D56DE917B77FFC0713E72AF0D29" Source="$(var.SourceDir)\CoreMedia.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc7E3F899B51AF0DFDF6909DF3FBA36F51" Guid="9f06210e-da68-8066-bdfb-3af8e05d1860">
+        <Component Id="owc7E3F899B51AF0DFDF6909DF3FBA36F51" Guid="9f06210e-da68-8066-bdfb-3af8e05d1860" Win64="yes">
           <File Id="owf7E3F899B51AF0DFDF6909DF3FBA36F51" Source="$(var.SourceDir)\icudt62.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc6EC5AB8232344E5AF4A6B17BB739E51B" Guid="fa6bf079-03fe-d262-40f8-538fec26df82">
+        <Component Id="owc6EC5AB8232344E5AF4A6B17BB739E51B" Guid="fa6bf079-03fe-d262-40f8-538fec26df82" Win64="yes">
           <File Id="owf6EC5AB8232344E5AF4A6B17BB739E51B" Source="$(var.SourceDir)\libcache.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc8A7AA914FEAF7D717752DAE27D55972C" Guid="e46670a1-c392-efba-9458-0621f20bafcd">
+        <Component Id="owc8A7AA914FEAF7D717752DAE27D55972C" Guid="e46670a1-c392-efba-9458-0621f20bafcd" Win64="yes">
           <File Id="owf8A7AA914FEAF7D717752DAE27D55972C" Source="$(var.SourceDir)\libdispatch.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owcF188297D71C7DA8FF0B0A2DBDBF0C1DD" Guid="f69e8a9f-84da-a3e5-dba5-4eb4a13bb08b">
-          <File Id="owfF188297D71C7DA8FF0B0A2DBDBF0C1DD" Source="$(var.SourceDir)\libexslt.dll" KeyPath="yes" />
-        </Component>
-        <Component Id="owc0E74DD606A4EDDD5D8309E3802ACF0A5" Guid="bfd645f2-426c-c92b-03fc-68d6eda52943">
+        <Component Id="owc0E74DD606A4EDDD5D8309E3802ACF0A5" Guid="bfd645f2-426c-c92b-03fc-68d6eda52943" Win64="yes">
           <File Id="owf0E74DD606A4EDDD5D8309E3802ACF0A5" Source="$(var.SourceDir)\libicuin.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owcB1ACDF59B2E79A347B7FAC3E9210E001" Guid="58ff8ff7-8231-110e-c224-518a74f60300">
+        <Component Id="owcB1ACDF59B2E79A347B7FAC3E9210E001" Guid="58ff8ff7-8231-110e-c224-518a74f60300" Win64="yes">
           <File Id="owfB1ACDF59B2E79A347B7FAC3E9210E001" Source="$(var.SourceDir)\libicuuc.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owcCE8F9B22FD4042FC8282327AE2AD0BF0" Guid="2a187794-2984-6538-784f-1b1847a952c8">
+        <Component Id="owcCE8F9B22FD4042FC8282327AE2AD0BF0" Guid="2a187794-2984-6538-784f-1b1847a952c8" Win64="yes">
           <File Id="owfCE8F9B22FD4042FC8282327AE2AD0BF0" Source="$(var.SourceDir)\libtidy.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc84A16ACE39141CE34510F3D7B2A870FE" Guid="e7bc6a22-29ab-53f0-6e98-ef5c04ca83fe">
+        <Component Id="owc84A16ACE39141CE34510F3D7B2A870FE" Guid="e7bc6a22-29ab-53f0-6e98-ef5c04ca83fe" Win64="yes">
           <File Id="owf84A16ACE39141CE34510F3D7B2A870FE" Source="$(var.SourceDir)\libxml2.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc701ABDB4C82396B51F932A00BB23C8AE" Guid="4b1b20e8-81f9-9cb0-3bda-b61b2cca8192">
+        <Component Id="owc701ABDB4C82396B51F932A00BB23C8AE" Guid="4b1b20e8-81f9-9cb0-3bda-b61b2cca8192" Win64="yes">
           <File Id="owf701ABDB4C82396B51F932A00BB23C8AE" Source="$(var.SourceDir)\libxslt.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc01F8A1BEF6BEE89E3D647DFFD62BD686" Guid="4296a9a1-a9d9-8a77-48aa-f4d27b27e1c5">
+        <Component Id="owc01F8A1BEF6BEE89E3D647DFFD62BD686" Guid="4296a9a1-a9d9-8a77-48aa-f4d27b27e1c5" Win64="yes">
           <File Id="owf01F8A1BEF6BEE89E3D647DFFD62BD686" Source="$(var.SourceDir)\lskd.rl" KeyPath="yes" />
         </Component>
-        <Component Id="owcC184EED1A9D5DD1635BF85E93E6E7C01" Guid="508cd91c-09f3-1a31-6e90-c33a93c70717">
+        <Component Id="owcC184EED1A9D5DD1635BF85E93E6E7C01" Guid="508cd91c-09f3-1a31-6e90-c33a93c70717" Win64="yes">
           <File Id="owfC184EED1A9D5DD1635BF85E93E6E7C01" Source="$(var.SourceDir)\objc.dll" KeyPath="yes" />
         </Component>
-        <Component Id="owc8EB65FC4F8EA9C01FE185D0873F0A101" Guid="36276824-a3cc-e87f-2270-a614a0dd39c5">
+        <Component Id="owc8EB65FC4F8EA9C01FE185D0873F0A101" Guid="36276824-a3cc-e87f-2270-a614a0dd39c5" Win64="yes">
           <File Id="owf8EB65FC4F8EA9C01FE185D0873F0A101" Source="$(var.SourceDir)\zlib1.dll" KeyPath="yes" />
         </Component>
         <Directory Id="owdCBA80D7FF8A71E5C134948C4C098CC0D" Name="CoreFoundation.resources">
-          <Component Id="owc04C8AF18784143D4BC780E44CD2D72CB" Guid="4c0441a3-ea7e-f288-1a34-d626abfd3518">
+          <Component Id="owc04C8AF18784143D4BC780E44CD2D72CB" Guid="4c0441a3-ea7e-f288-1a34-d626abfd3518" Win64="yes">
             <File Id="owf04C8AF18784143D4BC780E44CD2D72CB" Source="$(var.SourceDir)\CoreFoundation.resources\CFCharacterSetBitmaps.bitmap" KeyPath="yes" />
           </Component>
-          <Component Id="owcE5FAC72A4542D808CD1AA9C6AC6D6117" Guid="1089e57d-e795-508b-3225-66f7fd4d5504">
+          <Component Id="owcE5FAC72A4542D808CD1AA9C6AC6D6117" Guid="1089e57d-e795-508b-3225-66f7fd4d5504" Win64="yes">
             <File Id="owfE5FAC72A4542D808CD1AA9C6AC6D6117" Source="$(var.SourceDir)\CoreFoundation.resources\CFUniCharPropertyDatabase.data" KeyPath="yes" />
           </Component>
-          <Component Id="owc297BB8C354E5DF2BC65A6938F1E5C1D5" Guid="e0197572-887a-6ef3-3b25-4b723a9ed2be">
+          <Component Id="owc297BB8C354E5DF2BC65A6938F1E5C1D5" Guid="e0197572-887a-6ef3-3b25-4b723a9ed2be" Win64="yes">
             <File Id="owf297BB8C354E5DF2BC65A6938F1E5C1D5" Source="$(var.SourceDir)\CoreFoundation.resources\CFUnicodeData-L.mapping" KeyPath="yes" />
           </Component>
-          <Component Id="owcC70DFCD3FF1E047E3B1CC541FD938116" Guid="78faec4e-3371-dab2-7a7b-0e0b82456b69">
+          <Component Id="owcC70DFCD3FF1E047E3B1CC541FD938116" Guid="78faec4e-3371-dab2-7a7b-0e0b82456b69" Win64="yes">
             <File Id="owfC70DFCD3FF1E047E3B1CC541FD938116" Source="$(var.SourceDir)\CoreFoundation.resources\Info.plist" KeyPath="yes" />
           </Component>
           <Directory Id="owd1A135F3B759B060FD0376C554E958C67" Name="ar.lproj">
-            <Component Id="owcBBE1AA4ACDA02DB5F560B297667693E6" Guid="abded571-3d73-bf04-d482-d09ee2d2ad89">
+            <Component Id="owcBBE1AA4ACDA02DB5F560B297667693E6" Guid="abded571-3d73-bf04-d482-d09ee2d2ad89" Win64="yes">
               <File Id="owfBBE1AA4ACDA02DB5F560B297667693E6" Source="$(var.SourceDir)\CoreFoundation.resources\ar.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdA682BCD0E296914D52285FB4BE821BA0" Name="ca.lproj">
-            <Component Id="owc5ECA0F46FA5A2C08694739D3BF342DCA" Guid="fa3e40c9-f8c9-eff5-5f7d-327f722953d7">
+            <Component Id="owc5ECA0F46FA5A2C08694739D3BF342DCA" Guid="fa3e40c9-f8c9-eff5-5f7d-327f722953d7" Win64="yes">
               <File Id="owf5ECA0F46FA5A2C08694739D3BF342DCA" Source="$(var.SourceDir)\CoreFoundation.resources\ca.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdD70474E71E6C364EFD5BF93A4FB6DE08" Name="cs.lproj">
-            <Component Id="owcAA31D49E32699C3CAB937177C47194B4" Guid="644b8ca6-958a-288b-068d-a3d99818ed3e">
+            <Component Id="owcAA31D49E32699C3CAB937177C47194B4" Guid="644b8ca6-958a-288b-068d-a3d99818ed3e" Win64="yes">
               <File Id="owfAA31D49E32699C3CAB937177C47194B4" Source="$(var.SourceDir)\CoreFoundation.resources\cs.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd35A9B69F512D09CF4EA4ADB999701E2E" Name="da.lproj">
-            <Component Id="owc14E5B02D895EEFE4FA49F098326C249A" Guid="e93629b5-60d8-eb43-6c0c-36d93c365dcb">
+            <Component Id="owc14E5B02D895EEFE4FA49F098326C249A" Guid="e93629b5-60d8-eb43-6c0c-36d93c365dcb" Win64="yes">
               <File Id="owf14E5B02D895EEFE4FA49F098326C249A" Source="$(var.SourceDir)\CoreFoundation.resources\da.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdA4567A6E7DAF43B286A05550AC7D77CF" Name="de.lproj">
-            <Component Id="owcBDCD54FDCA9831BEAA89CCF99D909F54" Guid="466ff35b-b83e-5967-3bbb-e08862c59f70">
+            <Component Id="owcBDCD54FDCA9831BEAA89CCF99D909F54" Guid="466ff35b-b83e-5967-3bbb-e08862c59f70" Win64="yes">
               <File Id="owfBDCD54FDCA9831BEAA89CCF99D909F54" Source="$(var.SourceDir)\CoreFoundation.resources\de.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd1663629380852593493BD84E6FE63EF9" Name="el.lproj">
-            <Component Id="owc63F0FD50289302A9F7563B3DBB722D5E" Guid="591e98ff-bd2f-9fd6-4b0f-3e332d40f157">
+            <Component Id="owc63F0FD50289302A9F7563B3DBB722D5E" Guid="591e98ff-bd2f-9fd6-4b0f-3e332d40f157" Win64="yes">
               <File Id="owf63F0FD50289302A9F7563B3DBB722D5E" Source="$(var.SourceDir)\CoreFoundation.resources\el.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdFA747854362BBD0ED69666B16CCDD1C4" Name="en.lproj">
-            <Component Id="owc0835BB93F10553BC78D4CCA82DA8D301" Guid="26c14aeb-7a75-e776-5c28-67161b6cb6ac">
+            <Component Id="owc0835BB93F10553BC78D4CCA82DA8D301" Guid="26c14aeb-7a75-e776-5c28-67161b6cb6ac" Win64="yes">
               <File Id="owf0835BB93F10553BC78D4CCA82DA8D301" Source="$(var.SourceDir)\CoreFoundation.resources\en.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdC385DC379FCD1915201CD5F60D64BDCB" Name="es.lproj">
-            <Component Id="owcFF74A0383D301A6C3860AFA24FA05BD3" Guid="3ecea7fa-cbb4-c586-bd48-c5e2376b0aba">
+            <Component Id="owcFF74A0383D301A6C3860AFA24FA05BD3" Guid="3ecea7fa-cbb4-c586-bd48-c5e2376b0aba" Win64="yes">
               <File Id="owfFF74A0383D301A6C3860AFA24FA05BD3" Source="$(var.SourceDir)\CoreFoundation.resources\es.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd40739001F9258DFC364128F186A8CFE0" Name="es_419.lproj">
-            <Component Id="owc6F24FC43245B6D2D9712C91ECDFEFBF6" Guid="0f3a2a01-ad8e-0ea1-5bb8-3305d6343a64">
+            <Component Id="owc6F24FC43245B6D2D9712C91ECDFEFBF6" Guid="0f3a2a01-ad8e-0ea1-5bb8-3305d6343a64" Win64="yes">
               <File Id="owf6F24FC43245B6D2D9712C91ECDFEFBF6" Source="$(var.SourceDir)\CoreFoundation.resources\es_419.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd8A75ACC955F5F1803857A8DC2D1B2CE2" Name="fi.lproj">
-            <Component Id="owcD5616431CCEF7073073E08706E81AB20" Guid="4398e584-3b2e-793f-918c-7dd988b9ad31">
+            <Component Id="owcD5616431CCEF7073073E08706E81AB20" Guid="4398e584-3b2e-793f-918c-7dd988b9ad31" Win64="yes">
               <File Id="owfD5616431CCEF7073073E08706E81AB20" Source="$(var.SourceDir)\CoreFoundation.resources\fi.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdCB554E50A25E91119F139D6C2F1AA7CF" Name="fr.lproj">
-            <Component Id="owc6BFDDC7130FBE5BE1E2A8DDAE502EFC4" Guid="fa61f75d-de2e-026a-96d5-e87ce4d6b3d2">
+            <Component Id="owc6BFDDC7130FBE5BE1E2A8DDAE502EFC4" Guid="fa61f75d-de2e-026a-96d5-e87ce4d6b3d2" Win64="yes">
               <File Id="owf6BFDDC7130FBE5BE1E2A8DDAE502EFC4" Source="$(var.SourceDir)\CoreFoundation.resources\fr.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdDCC02817E329C15DD85D212D14BA6275" Name="he.lproj">
-            <Component Id="owcE87CAD91D33D0B99EEF84800D6A6527A" Guid="f0d6ad09-853a-38cd-aded-1d0d62792d97">
+            <Component Id="owcE87CAD91D33D0B99EEF84800D6A6527A" Guid="f0d6ad09-853a-38cd-aded-1d0d62792d97" Win64="yes">
               <File Id="owfE87CAD91D33D0B99EEF84800D6A6527A" Source="$(var.SourceDir)\CoreFoundation.resources\he.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd77BE652F163CD0FF76C73BB4A8A1F912" Name="hr.lproj">
-            <Component Id="owc5D84B458B0CDC354FFF885B62D564B63" Guid="42245a45-bc0d-796c-86f2-b15ba3b15576">
+            <Component Id="owc5D84B458B0CDC354FFF885B62D564B63" Guid="42245a45-bc0d-796c-86f2-b15ba3b15576" Win64="yes">
               <File Id="owf5D84B458B0CDC354FFF885B62D564B63" Source="$(var.SourceDir)\CoreFoundation.resources\hr.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdADA484DF3E7E6DAECA9E13E6BE558562" Name="hu.lproj">
-            <Component Id="owcBD35999FC125E2C6F6B5E926F8A30486" Guid="5e5f1ff7-e4c3-f98b-fef8-3fb21531c675">
+            <Component Id="owcBD35999FC125E2C6F6B5E926F8A30486" Guid="5e5f1ff7-e4c3-f98b-fef8-3fb21531c675" Win64="yes">
               <File Id="owfBD35999FC125E2C6F6B5E926F8A30486" Source="$(var.SourceDir)\CoreFoundation.resources\hu.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd5F4571BB84E2AED271E7523C40261969" Name="id.lproj">
-            <Component Id="owc5634643190E6B941FFBAAD49B2D7854A" Guid="0bd88946-68e4-036c-332f-7cb1c954f029">
+            <Component Id="owc5634643190E6B941FFBAAD49B2D7854A" Guid="0bd88946-68e4-036c-332f-7cb1c954f029" Win64="yes">
               <File Id="owf5634643190E6B941FFBAAD49B2D7854A" Source="$(var.SourceDir)\CoreFoundation.resources\id.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdB20FD58858521ECF98B47FEEBF404984" Name="it.lproj">
-            <Component Id="owc20BFA94A3E9E770979EDAD59418D3CFE" Guid="9a4ce650-6b33-b223-33df-b2fadbf9a66a">
+            <Component Id="owc20BFA94A3E9E770979EDAD59418D3CFE" Guid="9a4ce650-6b33-b223-33df-b2fadbf9a66a" Win64="yes">
               <File Id="owf20BFA94A3E9E770979EDAD59418D3CFE" Source="$(var.SourceDir)\CoreFoundation.resources\it.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdA58D44AFDEB0CC4815864C6AA1EB0EB9" Name="ja.lproj">
-            <Component Id="owc40F4B2912FC030ECECEEE746EAB669FB" Guid="cd14fcaf-df4b-eecb-651e-4eb83e9c13ec">
+            <Component Id="owc40F4B2912FC030ECECEEE746EAB669FB" Guid="cd14fcaf-df4b-eecb-651e-4eb83e9c13ec" Win64="yes">
               <File Id="owf40F4B2912FC030ECECEEE746EAB669FB" Source="$(var.SourceDir)\CoreFoundation.resources\ja.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd8E75D26576EE90DA51591E812FCF4B30" Name="ko.lproj">
-            <Component Id="owcBC510C93B1B3E6ABF554BEAA07325ABD" Guid="474beb1d-59c9-a852-554c-bfabecee5f6b">
+            <Component Id="owcBC510C93B1B3E6ABF554BEAA07325ABD" Guid="474beb1d-59c9-a852-554c-bfabecee5f6b" Win64="yes">
               <File Id="owfBC510C93B1B3E6ABF554BEAA07325ABD" Source="$(var.SourceDir)\CoreFoundation.resources\ko.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdB46ACBF25859C847D9832F3EEC59F0DC" Name="ms.lproj">
-            <Component Id="owc9E762696B4DF1727D54445C04D165B6C" Guid="3d5cd51e-7339-d209-36d6-c18554285260">
+            <Component Id="owc9E762696B4DF1727D54445C04D165B6C" Guid="3d5cd51e-7339-d209-36d6-c18554285260" Win64="yes">
               <File Id="owf9E762696B4DF1727D54445C04D165B6C" Source="$(var.SourceDir)\CoreFoundation.resources\ms.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdE86F131BECC2BEFAF57A522C0D058C73" Name="nb.lproj">
-            <Component Id="owcB5CBF79F15708B315E6091BE2B4A83B6" Guid="5fe7dfc1-5a6e-34bf-0df5-c47f942f8d38">
+            <Component Id="owcB5CBF79F15708B315E6091BE2B4A83B6" Guid="5fe7dfc1-5a6e-34bf-0df5-c47f942f8d38" Win64="yes">
               <File Id="owfB5CBF79F15708B315E6091BE2B4A83B6" Source="$(var.SourceDir)\CoreFoundation.resources\nb.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd3B33F099B383EEC147BA5F2B0B947AC6" Name="nl.lproj">
-            <Component Id="owcFBF36908B8818E0C81D886F5A02678FD" Guid="e010baf3-ba1d-9a31-fa6e-8086e9e7adc5">
+            <Component Id="owcFBF36908B8818E0C81D886F5A02678FD" Guid="e010baf3-ba1d-9a31-fa6e-8086e9e7adc5" Win64="yes">
               <File Id="owfFBF36908B8818E0C81D886F5A02678FD" Source="$(var.SourceDir)\CoreFoundation.resources\nl.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdC3F5947D91E28B37C10F90DF8338396C" Name="pl.lproj">
-            <Component Id="owc981E96A86EA40BBA655513A92D3ECCD3" Guid="6965fa01-0870-a889-cf1e-b6d16cb66de6">
+            <Component Id="owc981E96A86EA40BBA655513A92D3ECCD3" Guid="6965fa01-0870-a889-cf1e-b6d16cb66de6" Win64="yes">
               <File Id="owf981E96A86EA40BBA655513A92D3ECCD3" Source="$(var.SourceDir)\CoreFoundation.resources\pl.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd099B88FF9113E4AC481BD44C625D9C16" Name="pt.lproj">
-            <Component Id="owc2211B486CCFB7DF9544C7A10C96F83D8" Guid="383cd975-0910-b03a-bbaf-5e8733e48c4f">
+            <Component Id="owc2211B486CCFB7DF9544C7A10C96F83D8" Guid="383cd975-0910-b03a-bbaf-5e8733e48c4f" Win64="yes">
               <File Id="owf2211B486CCFB7DF9544C7A10C96F83D8" Source="$(var.SourceDir)\CoreFoundation.resources\pt.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdE984770DEFA1D1AB6A4471E43D95F1A4" Name="pt_PT.lproj">
-            <Component Id="owc3CE5416F2DAE6388F5AEC68DF0181151" Guid="58d8a392-047c-8061-9497-3cffcf9f8331">
+            <Component Id="owc3CE5416F2DAE6388F5AEC68DF0181151" Guid="58d8a392-047c-8061-9497-3cffcf9f8331" Win64="yes">
               <File Id="owf3CE5416F2DAE6388F5AEC68DF0181151" Source="$(var.SourceDir)\CoreFoundation.resources\pt_PT.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdFE198C8D4844EE064EF8EBF53A79E595" Name="ro.lproj">
-            <Component Id="owcA1FB2656A5C2AE5C2413A483298263DE" Guid="94151e9f-6209-da0c-c21f-df0c03f5ac6c">
+            <Component Id="owcA1FB2656A5C2AE5C2413A483298263DE" Guid="94151e9f-6209-da0c-c21f-df0c03f5ac6c" Win64="yes">
               <File Id="owfA1FB2656A5C2AE5C2413A483298263DE" Source="$(var.SourceDir)\CoreFoundation.resources\ro.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd7F1FE889E4F31FF80F210EE330CEC052" Name="ru.lproj">
-            <Component Id="owcDF077F0C7B0A1F12B2958F21C12EE2E1" Guid="723e95ef-5f2d-1eb0-f907-80dff892aac0">
+            <Component Id="owcDF077F0C7B0A1F12B2958F21C12EE2E1" Guid="723e95ef-5f2d-1eb0-f907-80dff892aac0" Win64="yes">
               <File Id="owfDF077F0C7B0A1F12B2958F21C12EE2E1" Source="$(var.SourceDir)\CoreFoundation.resources\ru.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdBEE6C456FD766C4FE352E0D9C8B37CF5" Name="sk.lproj">
-            <Component Id="owc61A5E9909D8E1E615F14F973CE27BA8F" Guid="2e93dc63-6131-4cd7-074f-70eb2bd67a82">
+            <Component Id="owc61A5E9909D8E1E615F14F973CE27BA8F" Guid="2e93dc63-6131-4cd7-074f-70eb2bd67a82" Win64="yes">
               <File Id="owf61A5E9909D8E1E615F14F973CE27BA8F" Source="$(var.SourceDir)\CoreFoundation.resources\sk.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd51FBB6A1D1975993D413A3573E63F0C3" Name="sv.lproj">
-            <Component Id="owc511E22A62FC5CFD99DB1E5FC29969CA0" Guid="c4b283ec-cca6-8c37-160c-61f40cd7de6d">
+            <Component Id="owc511E22A62FC5CFD99DB1E5FC29969CA0" Guid="c4b283ec-cca6-8c37-160c-61f40cd7de6d" Win64="yes">
               <File Id="owf511E22A62FC5CFD99DB1E5FC29969CA0" Source="$(var.SourceDir)\CoreFoundation.resources\sv.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd9E453CCED441C198D77ACE29ED38B3C0" Name="th.lproj">
-            <Component Id="owc00C5BBF86C4663465F565CB49FED1A3F" Guid="6e3dcbd3-0cef-c183-46cd-d39fcef37aac">
+            <Component Id="owc00C5BBF86C4663465F565CB49FED1A3F" Guid="6e3dcbd3-0cef-c183-46cd-d39fcef37aac" Win64="yes">
               <File Id="owf00C5BBF86C4663465F565CB49FED1A3F" Source="$(var.SourceDir)\CoreFoundation.resources\th.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdDEF9ECB0B139BC386AE1433B35AF20E6" Name="tr.lproj">
-            <Component Id="owc265797668BAB8DC64AF153B42EFB996D" Guid="57893671-2c57-7a2e-9bb1-759bc8080746">
+            <Component Id="owc265797668BAB8DC64AF153B42EFB996D" Guid="57893671-2c57-7a2e-9bb1-759bc8080746" Win64="yes">
               <File Id="owf265797668BAB8DC64AF153B42EFB996D" Source="$(var.SourceDir)\CoreFoundation.resources\tr.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd4F4549A5A1BE4009FAD0B5B951F931BF" Name="uk.lproj">
-            <Component Id="owcA8489403AC5405A5D36A2F2C9D5A7F51" Guid="312ff6cc-642d-0d3c-a2b3-48f610527257">
+            <Component Id="owcA8489403AC5405A5D36A2F2C9D5A7F51" Guid="312ff6cc-642d-0d3c-a2b3-48f610527257" Win64="yes">
               <File Id="owfA8489403AC5405A5D36A2F2C9D5A7F51" Source="$(var.SourceDir)\CoreFoundation.resources\uk.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owd1F5EB41E7D5B1E867A12418D200EE4DE" Name="vi.lproj">
-            <Component Id="owcAB1002BF662B911C56695D4A2483F4E9" Guid="84f64973-0b0f-5193-cc9d-04aeee5cab90">
+            <Component Id="owcAB1002BF662B911C56695D4A2483F4E9" Guid="84f64973-0b0f-5193-cc9d-04aeee5cab90" Win64="yes">
               <File Id="owfAB1002BF662B911C56695D4A2483F4E9" Source="$(var.SourceDir)\CoreFoundation.resources\vi.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdC82FF6910E77A20E62B9B3D08DFF67CE" Name="zh_CN.lproj">
-            <Component Id="owc991C0D47EE87F67A462013C1B219BEC0" Guid="d1f0954f-0987-d9f4-1385-a0d43e9ac0cd">
+            <Component Id="owc991C0D47EE87F67A462013C1B219BEC0" Guid="d1f0954f-0987-d9f4-1385-a0d43e9ac0cd" Win64="yes">
               <File Id="owf991C0D47EE87F67A462013C1B219BEC0" Source="$(var.SourceDir)\CoreFoundation.resources\zh_CN.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
           <Directory Id="owdF22E045DE219068DB9E3193B949F696F" Name="zh_TW.lproj">
-            <Component Id="owc974CD81E1270E6C8F08DE5C34CD34FB6" Guid="f7662453-8527-08f1-90f2-2c54bc4266d3">
+            <Component Id="owc974CD81E1270E6C8F08DE5C34CD34FB6" Guid="f7662453-8527-08f1-90f2-2c54bc4266d3" Win64="yes">
               <File Id="owf974CD81E1270E6C8F08DE5C34CD34FB6" Source="$(var.SourceDir)\CoreFoundation.resources\zh_TW.lproj\Error.strings" KeyPath="yes" />
             </Component>
           </Directory>
         </Directory>
         <Directory Id="owdB5BB0EE5E8997A29B0FFB962B37E7002" Name="CoreMedia.resources">
-          <Component Id="owc3B972B94434889B036D58C11DEF8542B" Guid="7befa1d2-470c-642d-59a9-2b3e2361b68b">
+          <Component Id="owc3B972B94434889B036D58C11DEF8542B" Guid="7befa1d2-470c-642d-59a9-2b3e2361b68b" Win64="yes">
             <File Id="owf3B972B94434889B036D58C11DEF8542B" Source="$(var.SourceDir)\CoreMedia.resources\AVAssetExportPresets.plist" KeyPath="yes" />
           </Component>
-          <Component Id="owc8CE043F3548D8C6E111DC7E04A7E0EAF" Guid="105224f1-264f-e2d7-07fb-d69f9ec97be7">
+          <Component Id="owc8CE043F3548D8C6E111DC7E04A7E0EAF" Guid="105224f1-264f-e2d7-07fb-d69f9ec97be7" Win64="yes">
             <File Id="owf8CE043F3548D8C6E111DC7E04A7E0EAF" Source="$(var.SourceDir)\CoreMedia.resources\AVExportBitRate.plist" KeyPath="yes" />
           </Component>
-          <Component Id="owc5EA14E05D77C6568E48CDB2E1185B820" Guid="ed8d924b-12be-a1a0-73bb-e4ce085da7f6">
+          <Component Id="owc5EA14E05D77C6568E48CDB2E1185B820" Guid="ed8d924b-12be-a1a0-73bb-e4ce085da7f6" Win64="yes">
             <File Id="owf5EA14E05D77C6568E48CDB2E1185B820" Source="$(var.SourceDir)\CoreMedia.resources\CoreMedia.icxs" KeyPath="yes" />
           </Component>
-          <Component Id="owc74197E0E2480AA293FB6B87D32924E6C" Guid="4e31344f-6ac7-c9f9-9012-8cc1ae6c9937">
+          <Component Id="owc74197E0E2480AA293FB6B87D32924E6C" Guid="4e31344f-6ac7-c9f9-9012-8cc1ae6c9937" Win64="yes">
             <File Id="owf74197E0E2480AA293FB6B87D32924E6C" Source="$(var.SourceDir)\CoreMedia.resources\Info.plist" KeyPath="yes" />
           </Component>
         </Directory>
