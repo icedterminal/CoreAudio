@@ -1,5 +1,5 @@
 # CoreAudio
-CoreAudio stand-alone for Windows. Make it easier to use for OBS.
+CoreAudio stand-alone for Windows. Make it easier to use for OBS. Otherwise you have to isntall iTunes entirely as Apple reworked their installation package for Windows 10 and later.
 
 Minimum required files:
 
@@ -26,4 +26,10 @@ Minimum required files:
 "C:\Program Files\Common Files\Apple\Apple Application Support\zlib1.dll"
 ```
 
-Check your OBS log and look for `[CoreAudio encoder]: Adding CoreAudio AAC encoder`
+Check your OBS log and look for `[CoreAudio encoder]: Adding CoreAudio AAC encoder` 
+
+## Why?
+CoreAudio offers better quality than ffmpeg. Even the developers of [HandBrake](https://handbrake.fr/docs/en/latest/technical/audio-codecs.html) acknowledge it.
+
+## Status
+No updates. Hashes match. Checked 3rd May, 2023.
